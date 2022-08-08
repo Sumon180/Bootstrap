@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap5</title>
+    <!-- Font Awsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+       
+       
+    </style>
+</head>
+<body>
+    <div class="container ">
+       <header class="bg-primary">
+            <div class="row py-3">
+                <div class="col-lg-5">
+                    <h1 class="text-white text-center">Sumon Hossain</h1>
+                </div>
+                <div class="col-lg-7">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a class="text-white nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="text-white nav-link" href="#">about</a></li>
+                        <li class="nav-item"><a class="text-white nav-link" href="#">Contact me</a></li>
+                    </ul>
+                </div>
+            </div>
+       </header>
+
+
+
+
+
+
+        <main>
+            <!-- Carousel -->
+            <div class="carousel-section">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <!-- carousel-indicators -->
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                      <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                       <img class="d-block w-100" id="feedback" src="img/pic1 (1).jpg" alt="">
+                       <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                      </div>
+                      </div>
+                      <div class="carousel-item">
+                       <img class="d-block w-100" id="feedback" src="img/pic2 (2).jpg" alt="">
+                       <div class="carousel-caption d-none d-md-block">
+                            <h5>Seconde slide</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                      </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" id="feedback" src="img/pic3.jpg" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>third slide</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                          </div>
+                      </div>
+                    </div>
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+
+                        <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Launch demo modal
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    ...
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+            <div class="service-section bg-light pt-3">
+                <div class="title text-center mb-3">
+                    <h3>Services</h3>
+                </div>
+                <div class="text-left row text-md-center">
+                    <div class=" col-lg-3 ">
+                        <i class="bg-primary text-white p-2 fa-2x rounded-circle mb-3 fa-solid fa-handshake-angle"></i>
+                        <h3 class="text-uppercase">bangladesh</h3>
+                        <p class="small text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptate enim, aspernatur ducimus consequuntur, assumenda maiores illo inventore repellat eligendi culpa, unde amet quam aut. Deserunt minus recusandae provident nihil.</p>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <i class="bg-primary text-white p-2 fa-2x rounded-circle mb-3 fa-solid fa-handshake-angle"></i>
+                        <h3 class="text-uppercase">bangladesh</h3>
+                        <p class="small text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptate enim, aspernatur ducimus consequuntur, assumenda maiores illo inventore repellat eligendi culpa, unde amet quam aut. Deserunt minus recusandae provident nihil.</p>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <i class="bg-primary text-white p-2 fa-2x rounded-circle mb-3 fa-solid fa-handshake-angle"></i>
+                        <h3 class="text-uppercase">bangladesh</h3>
+                        <p class="small text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptate enim, aspernatur ducimus consequuntur, assumenda maiores illo inventore repellat eligendi culpa, unde amet quam aut. Deserunt minus recusandae provident nihil.</p>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <i class="bg-primary text-white p-2 fa-2x rounded-circle mb-3 fa-solid fa-handshake-angle"></i>
+                        <h3 class="text-uppercase">bangladesh</h3>
+                        <p class="small text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptate enim, aspernatur ducimus consequuntur, assumenda maiores illo inventore repellat eligendi culpa, unde amet quam aut. Deserunt minus recusandae provident nihil.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div  class="row border my-2 p-2">
+                <div class="title text-center mb-2">
+                    <h3>About Me</h3>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="border rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlBGl2vn1v_4HvmBYcSIY6-Cct9COdcLFukg&usqp=CAU" alt="">
+                </div>
+                <div class="col-lg-8">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vel incidunt, beatae laudantium vero similique velit, debitis rerum ratione necessitatibus aspernatur. Veniam hic provident voluptate suscipit nisi impedit illum, nostrum cum nam enim! Quidem nostrum, sint voluptates id exercitationem illum quasi hic assumenda. A possimus quos dolor est odio. Dicta!</p>
+                    
+                    <a class="d-block" href="#demo" data-bs-toggle="collapse">Learn more</a>
+                    <div id="demo" class="collapse">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, cupiditate, fugiat rerum sequi quia soluta similique ratione quo, voluptate quidem veritatis eius incidunt nobis obcaecati omnis nostrum itaque. Omnis unde vero ullam dolorum! Eveniet dicta, dolores quaerat ut aspernatur fuga ullam, delectus, maiores in harum at explicabo quis? Quo quibusdam ex perferendis aut. Voluptatem quisquam nam repellat laborum libero ratione voluptates sint, in sed a nemo earum tempora dolorem quam totam recusandae itaque illum illo inventore iusto quis molestiae adipisci esse. Rem facilis saepe incidunt cupiditate ab culpa debitis atque nesciunt animi, molestiae illum facere doloremque nobis. Facilis, itaque aperiam.</p>
+                    </div>
+                    
+                    <button class="btn btn-primary m-2">Download CV</button>
+                    <button class="btn btn-outline-warning m-2">Download CV</button>
+                    <button class="btn btn-outline-danger m-2">Download CV</button>
+                    
+                    <div class="alert alert-danger alert-dismissible role-alert">
+                        <button
+                        class="btn-close"
+                        data-bs-dismiss="alert"
+                        aria-label="Close"
+                        ></button>
+                        Learn Bootstrap5
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="tutorial-section">
+                <div class="title text-center mb-2">
+                    <h3>Tutorial</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="card text-center">
+                            <img class="card img-top" src="photo.jpg" alt="card photo">
+                            <div class="card-body">
+                                <h4 class="card-title">Hire me</h4>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, numquam.</p>
+                                <a class="card-link stretched-link" href="#">visit now</a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card text-center">
+                            <img class="card img-top" src="photo.jpg" alt="card photo">
+                            <div class="card-body">
+                                <h4 class="card-title">Hire me</h4>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, numquam.</p>
+                                <a class="card-link stretched-link" href="#">visit now</a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card text-center">
+                            <img class="card img-top" src="photo.jpg" alt="card photo">
+                            <div class="card-body">
+                                <h4 class="card-title">Hire me</h4>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, numquam.</p>
+                                <a class="card-link stretched-link" href="#">visit now</a>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card text-center">
+                            <img class="card img-top" src="photo.jpg" alt="card photo">
+                            <div class="card-body">
+                                <h4 class="card-title">Hire me</h4>
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, numquam.</p>
+                                <a class="card-link stretched-link" href="#">visit now</a>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="Customer Review bg-light text-center">
+                <div class="title text-center mb-2">
+                    <h3>Customer Review</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <blockquote class="blockquote">
+                            <i class="p-2 fa-3x fas fa-user-circle"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos laudantium esse architecto, consectetur quod ducimus.In this website We can learn  <abbr title="Bootstrap5">bs5</abbr></p>
+                            <footer class="blockquote-footer">
+                                Sumon Hossain in <cite>You Tube</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-lg-4">
+                        <blockquote class="blockquote">
+                            <i class="p-2 fa-3x fas fa-user-circle"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos laudantium esse architecto, consectetur quod ducimus.In this website We can learn  <abbr title="Bootstrap5">bs5</abbr></p>
+                            <footer class="blockquote-footer">
+                                Sumon Hossain in <cite>You Tube</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-lg-4">
+                        <blockquote class="blockquote">
+                            <i class="p-2 fa-3x fas fa-user-circle"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos laudantium esse architecto, consectetur quod ducimus.In this website We can learn  <abbr title="Bootstrap5">bs5</abbr></p>
+                            <footer class="blockquote-footer">
+                                Sumon Hossain in <cite>You Tube</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="p-3">    
+                <table class="table table-success table-bordered text-center table-hover">
+                    <thead>
+                        <tr class="table-warning">
+                            <th>ID</th>
+                            <th> Name </th>
+                            <th> GP</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                        <tr>
+                            <td>101</td>
+                            <td>Sumon</td>
+                            <td>3.92</td>
+                        </tr>
+                        <tr>
+                            <td>102</td>
+                            <td>Arif</td>
+                            <td>3.85</td>
+                        </tr>
+                        <tr>
+                            <td>103</td>
+                            <td>Shamim</td>
+                            <td> 3.83 </td>
+                        </tr>
+                        <tr>
+                            <td>104</td>
+                            <td>Mahafuz</td>
+                            <td> 3.45 </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <div>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item"><a data-bs-toggle="tab" class="nav-link active" href="#edu">Education</a></li>
+                    <li class="nav-item"><a data-bs-toggle="tab" class="nav-link" href="#skill">Skill</a></li>
+                    <li class="nav-item"><a data-bs-toggle="tab" class="nav-link" href="#hobby">Hobby</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="edu" class="tab-pane active"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quo assumenda, inventore natus laborum ratione repellat corrupti. Quod, inventore perferendis?</p></div>
+                    <div id="skill" class="tab-pane fade"><p>ipsum dolor sit amet consectetur adipisicing elit. Molestiae quo assumenda, inventore natus laborum ratione repellat corrupti. Quod, inventore perferendis?</p></div>
+                    <div id="hobby" class="tab-pane fade"><p>dolor sit amet consectetur adipisicing elit. Molestiae quo assumenda, inventore natus laborum ratione repellat corrupti. Quod, inventore perferendis?</p></div>
+
+                </div>
+            </div>
+
+
+
+
+            
+            <div class="p-3">
+                <h3>Registration Form</h3>
+                <form class="p-3 bg-primary text-white w-50">
+                    <div class="mb-3">
+                        <label for="name" class="form-label"> Name : </label>
+                        <input type="text" id="name" class="form-control" placeholder="Inter your name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email"> Email : </label>
+                        <input type="email" id="email" class="form-control" placeholder="Inter your Email" required>
+                        <div class="form-text">Your email remain private. We will not share with anyone. </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <div class="form-check-inline">
+                            <input type="radio" class="form-check-input" id="radio">
+                            <label for="male">Male</label>
+                        </div>
+                        <div class="form-check-inline">
+                            <input type="radio" class="form-check-input" id="radio">
+                            <label for="female">Female</label>
+                        </div>
+                        <div class="form-check-inline">
+                            <input type="radio" class="form-check-input" id="radio">
+                            <label for="other">Other</label>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="tnc">
+                            <label for="tnc">Accept term And condition</label>
+                        </div>
+                    </div>
+
+                   <div>
+                    <label for="depertment">Depertment :</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                   </div>
+
+                    <div class="my-3">
+                        <button class="btn btn-success">Submit</button>
+                    </div>
+                </form>
+
+            </div>
+
+
+
+
+            
+            <div class="student-list">
+                <ul class="list-group">
+                    <li class="list-group-item bg-primary text-white">Sumon Hossain</li>
+                    <li class="list-group-item bg-secondary text-white">Atik Rahman</li>
+                    <li class="list-group-item bg-warning text-white">Bijoy Barman</li>
+                    <li class="list-group-item bg-info text-white">Mahfuz mondal</li>
+                </ul>
+            </div>
+        </main>
+
+        <footer class="bg-dark">
+            <ul class="pagination py-3 justify-content-center">
+                <li><a class="page-link" href="#">Prev</a></li>
+                <li><a class="page-link" href="#">1</a></li>
+                <li><a class="page-link"href="#">2</a></li>
+                <li><a class="page-link" href="#">3</a></li>
+                <li><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </footer>
+        
+    </div>
+        
+    
+    
+
+
+
+    <!-- Bootstrap5 cdn Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
